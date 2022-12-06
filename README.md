@@ -42,8 +42,8 @@ Bu, səhv kodlarının nəzərdən keçirilmədən əsas məhsul kimi təqdim ed
 
 QEYD: İlk push yerinə yetirdiyiniz zaman bir pəncərə açılacaq və 
 sizdən GitHub-a oradan daxil olmanız tələb olunacaq.
-git checkout -b [branch adı]
-Göstərilən adla yeni filial yaradır.
+$git checkout -b [branch adı]
+Göstərilən adla yeni branch yaradır.
 
 git checkout [branch adı]
 Göstərilən adla brancha keçir.
