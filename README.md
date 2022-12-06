@@ -24,7 +24,7 @@ Terminalda git clone https://github.com/firstproject/github.git yazıb göndərd
 
 
 
-                                                               Ən çox istifadə edilən git əmrləri
+                                                        Ən çox istifadə edilən git əmrləri
 
 $git add .
 Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazırlayır (səhnələşdirir). Sonda nöqtə bütün fayllara aiddir. Burada nöqtə yerinə fayl və ya qovluq adını da yaza bilərsiniz.
