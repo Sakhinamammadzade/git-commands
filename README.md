@@ -32,7 +32,7 @@ Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazı
 $git commit -m [commit mesajı]
 Bu komanda ilə əvvəlki addımda hazırlanmış dəyişikliklər mesajla lokal repozitoriyada saxlanılır. 
 Mesaj hissəsi layihədə edilən dəyişiklikləri təsvir etməlidir.
-Nümunə: git commit -m headr bitdi".
+Nümunə: git commit -m header bitdi".
 
 $git push origin [branch adı]
 Bu əmrlə yerli olaraq hazırlanan və saxlanılan dəyişikliklər GitHub-da depoya göndərilir.
