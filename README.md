@@ -1,30 +1,28 @@
-Repository-
-Hərfi mənada: anbar, məlumat anbarı
-Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
+<h1 align="center">Github üçün təməl anlayışlar</h1>
+<h3>Repository</h3>Hərfi mənada: anbar, məlumat anbarı.
+### Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
 Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)
 
-branch-
-Hərfi mənada: budaq, budaq, ayrı.
+<h3>Branch</h3>
+> Hərfi mənada: budaq, budaqlanma, ayrı.
 Layihəyə yeni funksiya əlavə etmək istədikdə və ya dəyişiklik edildikdə yeni branch yaradılır və bu branchda bütün dəyişikliklər edildikdən sonra o, master branchina birləşdirilir
 (merge: birləşmə).
 
-Fork-
+<h3>Fork</h3>
 Hərfi mənada: çəngəl
 Başqasının deposunda işləmək istədiyiniz zaman layihəni GitHub hesabınıza köçürmək üçün onu ayıra bilərsiniz.
 Layihə əslində bir yeniləmə olduqda, fork layihələr bu dəyişikliklərdən təsirlənmir.
 Öz hesabınızda saxlamaq istədiyiniz layihənin GitHub səhifəsinin yuxarı sağ küncündəki Fork düyməsini klikləməklə fork edə bilərsiniz.
 
-clone-
+<h3>Clone</h3>
 Hərfi mənada: kopyalamaq, klonlaşdırmaq.
 Layihəni kompüterinizə yükləmək istədiyiniz zaman clone əmrindən istifadə edə bilərsiniz.
-
 Terminalda git clone https://github.com/firstproject/github.git yazıb göndərdiyiniz zaman github adlı layihə cari kataloqda github adı ilə yaradılmış qovluğa kopyalanacaq. Repozitoriyanın klon linkinə daxil olmaq üçün sağdakı yaşıl Klon və ya endirmə düyməsini klikləməklə və ya layihənin linkinin sonunda .git uzantısını qoymaqla layihənin GitHub səhifəsinə daxil ola bilərsiniz.
 
 
-
-                                                        Ən çox istifadə edilən git əmrləri
+<h1 align="center">Ən çox istifadə edilən git əmrləri</h1>
 
 $git add .
 Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazırlayır (səhnələşdirir). Sonda nöqtə bütün fayllara aiddir. Burada nöqtə yerinə fayl və ya qovluq adını da yaza bilərsiniz.
