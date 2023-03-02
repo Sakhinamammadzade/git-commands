@@ -5,7 +5,7 @@ _**Hərfi mənada: anbar, məlumat anbarı._
 ### Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
-Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)**
+Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)
 
 <h3>Branch</h3>
 _**Hərfi mənada: budaq, budaqlanma, ayrı.**_
