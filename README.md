@@ -26,13 +26,13 @@ Terminalda git clone https://github.com/firstproject/github.git yazıb göndərd
 
 <h1 align="center" `rgb(122, 169, 60)`>Ən çox istifadə edilən git əmrləri</h1> 
 
->`+ $git init` - bu komanda qovluğu bir Git repository halına gətirir və 
+>`+ $git init - bu komanda qovluğu bir Git repository halına gətirir və 
 .git sonluqlu gizli bir qovluq yaradır. 
-Git init komandası qovluğumuzu uzaqdakı bir serverə (GitHub, GitLab, Bitbucket və b.) göndərmək üçün hazır vəziyyətə gətirir.
+Git init komandası qovluğumuzu uzaqdakı bir serverə (GitHub, GitLab, Bitbucket və b.) göndərmək üçün hazır vəziyyətə gətirir.`
 
->`+ $git config` - bu komanda vasitəsi ilə git istifadəçi adı , email əlavə edə bilərik, bunları əlavə etmədən hər hası bir iş gördükdə default olaraq sistemdəki username təyin olunacaqdır
+>`+ $git config` - bu komanda vasitəsi ilə git istifadəçi adı , email əlavə edə bilərik, bunları əlavə etmədən hər hası bir iş gördükdə default olaraq sistemdəki username təyin olunacaqdır`
 
-> `+ $git add .`- Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazırlayır (səhnələşdirir).Bu ise artıq proyektimiz commit –ə hazır oldugunu bildirir. Sondaki  _**nöqtə**_ bütün fayllara aiddir. Burada nöqtə yerinə dəyişdirilmiş olan istədəyiniz fayl və ya qovluq adını da yaza bilərsiniz.
+> `+ $git add .`- Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazırlayır (səhnələşdirir).Bu ise artıq proyektimiz commit –ə hazır oldugunu bildirir. Sondaki  _**nöqtə**_ bütün fayllara aiddir. Burada nöqtə yerinə dəyişdirilmiş olan istədəyiniz fayl və ya qovluq adını da yaza bilərsiniz.`
 
 
 
