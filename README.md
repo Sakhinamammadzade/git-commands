@@ -1,6 +1,6 @@
 <h1 align="center">Github üçün təməl anlayışlar</h1>
 
-> **`Repository`** - Hərfi mənada: anbar, məlumat anbarı.
+<h3>Repository</h3>- Hərfi mənada: anbar, məlumat anbarı.
 ### Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
