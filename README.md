@@ -1,5 +1,6 @@
 <h1 align="center">Github üçün təməl anlayışlar</h1>
-<h3>Repository</h3>Hərfi mənada: anbar, məlumat anbarı.
+
+> **`Repository`** - Hərfi mənada: anbar, məlumat anbarı.
 ### Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
@@ -24,14 +25,20 @@ Terminalda git clone https://github.com/firstproject/github.git yazıb göndərd
 
 <h1 align="center" `rgb(122, 169, 60)`>Ən çox istifadə edilən git əmrləri</h1> 
 
+>`+ $git init` - bu komanda qovluğu bir Git repository halına gətirir və 
+.git sonluqlu gizli bir qovluq yaradır. 
+Git init komandası qovluğumuzu uzaqdakı bir serverə (GitHub, GitLab, Bitbucket və b.) göndərmək üçün hazır vəziyyətə gətirir.
 
-> `+ $git add .`
-Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazırlayır (səhnələşdirir). Sonda nöqtə bütün fayllara aiddir. Burada nöqtə yerinə fayl və ya qovluq adını da yaza bilərsiniz.
+>`+ $git config` - bu komanda vasitəsi ilə git istifadəçi adı , email əlavə edə bilərik, bunları əlavə etmədən hər hası bir iş gördükdə default olaraq sistemdəki username təyin olunacaqdır
 
->`+ $git commit -m [commit mesajı]`
-Bu komanda ilə əvvəlki addımda hazırlanmış dəyişikliklər mesajla lokal repozitoriyada saxlanılır. 
-Mesaj hissəsi layihədə edilən dəyişiklikləri təsvir etməlidir.
-Nümunə: git commit -m header bitdi".
+> `+ $git add .`- Bu əmr bütün dəyişdirilmiş faylları GitHub-a təqdim etmək üçün hazırlayır (səhnələşdirir).Bu ise artıq proyektimiz commit –ə hazır oldugunu bildirir. Sondaki  _**nöqtə**_ bütün fayllara aiddir. Burada nöqtə yerinə dəyişdirilmiş olan istədəyiniz fayl və ya qovluq adını da yaza bilərsiniz.
+
+
+
+> `+ $ git commit` - Commit local maşınımızda baş verən bir prosesidir və uzaq server –dəki reposiroty -ə heç bir təsir göstərmir. Commit vasitəsilə etdiyimiz dəyişikliklər haqqında açıqlamalar qeyd edirik. Commit proyektimizi staging area -dan local repository bölməsinə keçirir:
+
+>>`+ $git commit -m “proyektin ilk commit-i”`
+>>Nümunə: git commit -m "some changes added".
 
 >`+ $git push origin [branch adı]`
 Bu əmrlə yerli olaraq hazırlanan və saxlanılan dəyişikliklər GitHub-da depoya göndərilir.Komanda işində branch adı vacibdir. Komandanın hər bir üzvü öz adı ilə və ya üzərində işlədiyi xüsusiyyəti təsvir edən branch yaratmalıdır. Bu branchda qeydə alınan dəyişikliklər, pull request yaradaraq master branch ilə birləşdirilmək üçün komanda rəhbərinin təsdiqinə təqdim edilməlidir.
@@ -46,9 +53,8 @@ Göstərilən adla yeni branch yaradır.
 
 >>_QEYD: Visual Studio Code ilə işləyərkən sol alt küncdə işlədiyiniz branch-in adını görə bilərsiniz._
 
->`+ $git status -`
-Bu əmr deponun cari vəziyyətini göstərir.
-Dəyişikliklər layihədə edilibsə, lakin həyata keçirilməyibsə (commit:törət) və ya qəbul edilmiş dəyişikliklərə baxmaq olar.
+>`+ $git status -`- Bu əmr deponun cari vəziyyətini göstərir.Bu komanda ilə yaratdığımız faylların gitə əlavə olunub olunmadığına baxa bilərik. Əgər əlavə olunmayıbsa faylın adı qırmızı rənglə yazılı olacaq. Sonra “git add . “ komandası verərək faylları əlavə edə bilərik. Yenidən “git status” komandası versək artıq fallar yaşıl rəngdə yazılacaq.
+>>Dəyişikliklər layihədə edilibsə, lakin həyata keçirilməyibsə (commit:törət) və ya qəbul edilmiş dəyişikliklərə baxmaq olar.
 **Nümunə git status əmrinə cavab:**
 ```
 + $ git status
@@ -62,22 +68,8 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-
->`+ $git config` - bu komanda vasitəsi ilə git istifadəçi adı , email əlavə edə bilərik, bunları əlavə etmədən hər hası bir iş gördükdə default olaraq sistemdəki username təyin olunacaqdır:
-
->`+ $git init` - bu komanda qovluğu bir Git repository halına gətirir və 
-.git sonluqlu gizli bir qovluq yaradır. 
-Git init komandası qovluğumuzu uzaqdakı bir serverə (GitHub, GitLab, Bitbucket və b.) göndərmək üçün hazır vəziyyətə gətirir.
-
 >`+ $git clone ` -  komandası ilə local-dakı və ya uzaq serverdəki (GitHub, GitLab, Bitbucket) istəlinən reponu hazırda olduğumuz qovluğa kopyalayır.
 
-> `+ $ git add` - add komandası hər-hansı bir yeni faylı və ya qovluqdakı bütün faylları əlavə edir, yəni artıq proyektimiz commit –ə hazır olur.
-
-> `+ $ git commit` - Commit local maşınımızda baş verən bir prosesidir və uzaq server –dəki reposiroty -ə heç bir təsir göstərmir. Commit vasitəsilə etdiyimiz dəyişikliklər haqqında açıqlamalar qeyd edirik. Commit proyektimizi staging area -dan local repository bölməsinə keçirir:
-
->>`+ $git commit -m “proyektin ilk commit-i”`
-
->`+ $git status `- komandası ilə yaratdığımız faylların gitə əlavə olunub olunmadığına baxa bilərik. Əgər əlavə olunmayıbsa faylın adı qırmızı rənglə yazılı olacaq. Sonra “git add . “ komandası verərək faylları əlavə edə bilərik. Yenidən “git status” komandası versək artıq fallar yaşıl rəngdə yazılacaq.
 
 >`+ $git pull `- Bu komanda ilə serverdəki repository-də əgər dəyişdirilmiş fayllar varsa, onları local-a yükləyir və faylları yeniləmək üçün repository ilə birləşdirir.
 
