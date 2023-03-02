@@ -1,26 +1,27 @@
 <h1 align="center">Github üçün təməl anlayışlar</h1>
 
-<h3>Repository</h3>- Hərfi mənada: anbar, məlumat anbarı.
+<h3>Repository</h3>
+_**Hərfi mənada: anbar, məlumat anbarı._
 ### Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
-Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)
+Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)**
 
 <h3>Branch</h3>
- Hərfi mənada: budaq, budaqlanma, ayrı.
-Layihəyə yeni funksiya əlavə etmək istədikdə və ya dəyişiklik edildikdə yeni branch yaradılır və bu branchda bütün dəyişikliklər edildikdən sonra o, master branchina birləşdirilir
-(merge: birləşmə).
+_**Hərfi mənada: budaq, budaqlanma, ayrı.**_
+**Layihəyə yeni funksiya əlavə etmək istədikdə və ya dəyişiklik edildikdə yeni branch yaradılır və bu branchda bütün dəyişikliklər edildikdən sonra o, master branchina birləşdirilir
+(merge: birləşmə).**
 
 <h3>Fork</h3>
-Hərfi mənada: çəngəl
+_**Hərfi mənada: çəngəl_
 Başqasının deposunda işləmək istədiyiniz zaman layihəni GitHub hesabınıza köçürmək üçün onu ayıra bilərsiniz.
 Layihə əslində bir yeniləmə olduqda, fork layihələr bu dəyişikliklərdən təsirlənmir.
-Öz hesabınızda saxlamaq istədiyiniz layihənin GitHub səhifəsinin yuxarı sağ küncündəki Fork düyməsini klikləməklə fork edə bilərsiniz.
+Öz hesabınızda saxlamaq istədiyiniz layihənin GitHub səhifəsinin yuxarı sağ küncündəki Fork düyməsini klikləməklə fork edə bilərsiniz.**
 
 <h3>Clone</h3>
-Hərfi mənada: kopyalamaq, klonlaşdırmaq.
-Layihəni kompüterinizə yükləmək istədiyiniz zaman clone əmrindən istifadə edə bilərsiniz.
-Terminalda git clone https://github.com/firstproject/github.git yazıb göndərdiyiniz zaman github adlı layihə cari kataloqda github adı ilə yaradılmış qovluğa kopyalanacaq. Repozitoriyanın klon linkinə daxil olmaq üçün sağdakı yaşıl Klon və ya endirmə düyməsini klikləməklə və ya layihənin linkinin sonunda .git uzantısını qoymaqla layihənin GitHub səhifəsinə daxil ola bilərsiniz.
+_**Hərfi mənada: kopyalamaq, klonlaşdırmaq.**_
+**Layihəni kompüterinizə yükləmək istədiyiniz zaman clone əmrindən istifadə edə bilərsiniz.
+Terminalda git clone https://github.com/firstproject/github.git yazıb göndərdiyiniz zaman github adlı layihə cari kataloqda github adı ilə yaradılmış qovluğa kopyalanacaq. Repozitoriyanın klon linkinə daxil olmaq üçün sağdakı yaşıl Klon və ya endirmə düyməsini klikləməklə və ya layihənin linkinin sonunda .git uzantısını qoymaqla layihənin GitHub səhifəsinə daxil ola bilərsiniz.**
 
 
 <h1 align="center" `rgb(122, 169, 60)`>Ən çox istifadə edilən git əmrləri</h1> 
