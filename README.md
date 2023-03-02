@@ -16,12 +16,12 @@ Layihəyə yeni funksiya əlavə etmək istədikdə və ya dəyişiklik edildikd
 Hərfi mənada: çəngəl
 Başqasının deposunda işləmək istədiyiniz zaman layihəni GitHub hesabınıza köçürmək üçün onu ayıra bilərsiniz.
 Layihə əslində bir yeniləmə olduqda, fork layihələr bu dəyişikliklərdən təsirlənmir.
-Öz hesabınızda saxlamaq istədiyiniz layihənin GitHub səhifəsinin yuxarı sağ küncündəki Fork düyməsini klikləməklə fork edə bilərsiniz.**
+Öz hesabınızda saxlamaq istədiyiniz layihənin GitHub səhifəsinin yuxarı sağ küncündəki Fork düyməsini klikləməklə fork edə bilərsiniz.
 
 <h3>Clone</h3>
 Hərfi mənada: kopyalamaq, klonlaşdırmaq.
 Layihəni kompüterinizə yükləmək istədiyiniz zaman clone əmrindən istifadə edə bilərsiniz.
-Terminalda git clone https://github.com/firstproject/github.git yazıb göndərdiyiniz zaman github adlı layihə cari kataloqda github adı ilə yaradılmış qovluğa kopyalanacaq. Repozitoriyanın klon linkinə daxil olmaq üçün sağdakı yaşıl Klon və ya endirmə düyməsini klikləməklə və ya layihənin linkinin sonunda .git uzantısını qoymaqla layihənin GitHub səhifəsinə daxil ola bilərsiniz.**
+Terminalda git clone https://github.com/firstproject/github.git yazıb göndərdiyiniz zaman github adlı layihə cari kataloqda github adı ilə yaradılmış qovluğa kopyalanacaq. Repozitoriyanın klon linkinə daxil olmaq üçün sağdakı yaşıl Klon və ya endirmə düyməsini klikləməklə və ya layihənin linkinin sonunda .git uzantısını qoymaqla layihənin GitHub səhifəsinə daxil ola bilərsiniz.
 
 
 <h1 align="center" `rgb(122, 169, 60)`>Ən çox istifadə edilən git əmrləri</h1> 
