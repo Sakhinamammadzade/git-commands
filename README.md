@@ -2,7 +2,7 @@
 
 <h3>Repository</h3>
 Hərfi mənada: anbar, məlumat anbarı.
-### Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
+Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
 Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)
