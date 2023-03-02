@@ -26,7 +26,7 @@ Terminalda git clone https://github.com/firstproject/github.git yazıb göndərd
 
 <h1 align="center" `rgb(122, 169, 60)`>🚩Ən çox istifadə edilən git əmrləri</h1> 
 
-🔹 >`$git init` - bu komanda qovluğu bir Git repository halına gətirir və 
+🔹`$git init` - bu komanda qovluğu bir Git repository halına gətirir və 
 .git sonluqlu gizli bir qovluq yaradır. 
 Git init komandası qovluğumuzu uzaqdakı bir serverə (GitHub, GitLab, Bitbucket və b.) göndərmək üçün hazır vəziyyətə gətirir.
 
