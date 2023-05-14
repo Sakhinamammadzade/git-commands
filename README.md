@@ -1,19 +1,19 @@
 <h1 align="center">🚩Github üçün təməl anlayışlar</h1>
 
 <h3>🔺 Repository</h3>
-Hərfi mənada: anbar, məlumat anbarı.
-Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünmək olar. 
+Hərfi mənada: anbar, məlumat anbarı,saxlanilan yer.
+Onu layihənin bütün fayl və qovluqlarını saxlayan verilənlər bazası kimi düşünə bilərik. 
 Hər bir layihə GitHub-da depo kimi saxlanıla bilər.
 Burada təkcə fayllar deyil, həm də fayllara edilən dəyişikliklərin tarixçəsi saxlanılır.
-Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər (fork)
+Repozitoriya birdən çox istifadəçi arasında paylaşıla və kopyalana bilər buna (fork) deyirik.
 
 <h3>🔻Branch</h3>
 Hərfi mənada: budaq, budaqlanma, ayrı.
-Layihəyə yeni funksiya əlavə etmək istədikdə və ya dəyişiklik edildikdə yeni branch yaradılır və bu branchda bütün dəyişikliklər edildikdən sonra o, master branchina birləşdirilir
+Layihəyə yeni funksiya əlavə etmək istədikdə və ya dəyişiklik edildikdə yeni branch yaradılır və bu branchda bütün dəyişikliklər edildikdən sonra o, master branchina birləşdirilir.
 (merge: birləşmə).
 
 <h3>🔺Fork</h3>
-Hərfi mənada: çəngəl
+Hərfi mənada: ayrıc
 Başqasının deposunda işləmək istədiyiniz zaman layihəni GitHub hesabınıza köçürmək üçün onu ayıra bilərsiniz.
 Layihə əslində bir yeniləmə olduqda, fork layihələr bu dəyişikliklərdən təsirlənmir.
 Öz hesabınızda saxlamaq istədiyiniz layihənin GitHub səhifəsinin yuxarı sağ küncündəki Fork düyməsini klikləməklə fork edə bilərsiniz.
